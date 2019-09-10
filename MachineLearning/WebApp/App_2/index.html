@@ -20,7 +20,7 @@
 
     <h1>Salary Prediction System</h1>
 
-    <form action="#">
+    <form action="cgi-bin/predict.py">
         <table border="2">
             <tr>
                 <td>Select Gender</td>
@@ -55,11 +55,10 @@
                 <td>Select Degree</td>
                 <td>
                     <select name="degree">
-                        <option value="btech">Btech</option>
-                        <option value="mtech">Mtech</option>
-                        <option value="bs">BS</option>
-                        <option value="ms">MS</option>
-                        <option value="phd">Phd</option>
+                        <option value="0">Btech</option>
+                        <option value="1">MCA</option>
+                        <option value="2">Mtech</option>
+                        <option value="3">Msc</option>
                     </select>
                 </td>
             </tr>
