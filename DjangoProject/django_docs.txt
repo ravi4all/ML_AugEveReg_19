@@ -1,0 +1,15 @@
+Django
+
+pip install django
+
+1. django-admin startproject project_name
+2. cd project_name
+3. python manage.py startapp app_name
+4. Open setting.py inside project_name
+5. Go to INSTALLED_APPS = ["mention your app name"]
+6. Test django using command - python manage.py runserver
+7. Create a file urls.py in your app folder
+
+
+pip install pymysql
+download and install xampp
